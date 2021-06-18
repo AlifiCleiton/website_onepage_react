@@ -1,4 +1,6 @@
 import img1 from '../../images/svg-1.svg';
+import img2 from '../../images/svg-2.svg';
+import img3 from '../../images/svg-3.svg';
 
 export const homeObjOne = {
   id: 'about',
@@ -16,3 +18,39 @@ export const homeObjOne = {
   primary: true,
   darkText: false
 }
+
+export const homeObjTwo = {
+  id: 'discover',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Unlimited Access',
+  headline: 'Unlimited Transactions with zero fees',
+  description: 'Get access to out exclusive app that allows you to send unlimited transactions without getting charged any fees.',
+  buttonLabel: 'Learn More',
+  imgStart: true,
+  img: img2,
+  alt: 'Car',
+  dark: false,
+  primary: false,
+  darkText: true
+}
+
+
+export const homeObjThree = {
+  id: 'signup',
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: 'Join Our Team',
+  headline: 'Unlimited Transactions with zero fees',
+  description: 'Get access to out exclusive app that allows you to send unlimited transactions without getting charged any fees.',
+  buttonLabel: 'Start Now',
+  imgStart: false,
+  img: img3,
+  alt: 'Car',
+  dark: false,
+  primary: false,
+  darkText: true
+}
+
